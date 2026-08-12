@@ -1647,3 +1647,14 @@ button {
 	body.is-preload #footer {
 		opacity: 0;
 	}
+
+/* Bio under the name on the homepage */
+#header .bio {
+    max-width: 700px;
+    margin: 1.5em auto;
+    font-size: 0.95em;
+    line-height: 1.6;
+    text-transform: none;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.85);
+}
