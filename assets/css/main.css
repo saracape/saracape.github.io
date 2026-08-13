@@ -1674,3 +1674,26 @@ button {
     border-bottom: 1px solid rgba(255,255,255,0.25);
     padding-bottom: 0.3rem;
 }
+
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.section-header .major {
+    margin: 0;
+    border-bottom: none;   /* prevents the title underline from extending */
+}
+
+.section-header .icons {
+    margin: 0;
+    padding: 0;
+}
+
+.section-header .icons li {
+    display: inline-block;
+    margin-left: 0.6rem;
+}
