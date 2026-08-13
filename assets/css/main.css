@@ -1676,24 +1676,26 @@ button {
 }
 
 
-.section-header {
+.research-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.research-header .major {
     margin-bottom: 2rem;
 }
 
-.section-header .major {
-    margin: 0;
-    border-bottom: none;   /* prevents the title underline from extending */
+.profile-icons {
+    display: flex;
+    gap: 0.6rem;
+    margin-top: 0.2rem;
 }
 
-.section-header .icons {
-    margin: 0;
-    padding: 0;
-}
-
-.section-header .icons li {
-    display: inline-block;
-    margin-left: 0.6rem;
+.profile-icons .icon {
+    border: none;
+    width: auto;
+    height: auto;
+    line-height: 1;
+    font-size: 1.3rem;
 }
