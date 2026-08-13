@@ -1675,16 +1675,24 @@ button {
     padding-bottom: 0.3rem;
 }
 
-#research {
-    position: relative;
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 
-#research .research-icons {
-    position: absolute;
-    top: 0;
-    right: 0;
+.section-header .major {
+    margin: 0;
+    border-bottom: none;   /* prevents the title underline from extending */
 }
 
-#research .research-icons .icon {
-    margin-left: 0.5rem;
+.section-header .icons {
+    margin: 0;
+    padding: 0;
+}
+
+.section-header .icons li {
+    display: inline-block;
+    margin-left: 0.6rem;
 }
