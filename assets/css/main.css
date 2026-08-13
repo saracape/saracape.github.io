@@ -1675,27 +1675,16 @@ button {
     padding-bottom: 0.3rem;
 }
 
-
-.research-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+#research {
+    position: relative;
 }
 
-.research-header .major {
-    margin-bottom: 2rem;
+#research .research-icons {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
-.profile-icons {
-    display: flex;
-    gap: 0.6rem;
-    margin-top: 0.2rem;
-}
-
-.profile-icons .icon {
-    border: none;
-    width: auto;
-    height: auto;
-    line-height: 1;
-    font-size: 1.3rem;
+#research .research-icons .icon {
+    margin-left: 0.5rem;
 }
